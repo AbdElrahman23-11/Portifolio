@@ -1,0 +1,115 @@
+header{
+    background-color: #ff9068;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px;
+    z-index: 999;
+     list-style: none;
+     display: flex;
+}
+.logo{
+    text-decoration:none;
+    color: #3a6cf4;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 1.0em;
+    text-align: left;
+    font-weight: 1000; 
+    font-size: 50px;   
+    padding-right: 100px;
+}
+.root{
+    --main-white:black ;
+}
+.navigation ul{
+    list-style: none;
+    background: #ff9068;
+    padding: 0;
+    margin: 0;
+    text-align:right;
+}
+ li{
+    display: inline-block;
+
+}
+.navigation a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 15px 10px;
+}
+.navigation a:hover{
+   color: #3a6cf4;
+}
+h2{
+    padding-top: 100px;
+}
+.G{
+    position: absolute;
+    right: 0;          
+    bottom: 0;
+    z-index: -1;
+}
+html{
+    background-color: rgba(0,0,0,0.4);
+}
+h2,h3{
+    color: rgb(0, 117, 4);
+}
+.title{
+    color:white;
+    font-size: 2.2em;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 5px 25px; 
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card .icon{
+    color: var(--main-white);
+    font-size: 8em;
+    text-align: center;
+}
+button{
+    background-color: #3a6cf4;
+}
+i{
+    margin: 15px;
+    text-shadow: 0 5px 15px;
+}
+.but{
+    border:1px;
+    background-color: #002078;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    text-align:center;
+}
+.but a:hover{
+   color: #3a6cf4;
+}
+.profile{
+    justify-content: center;
+    text-align: center;
+}
