@@ -9,6 +9,7 @@ header{
      list-style: none;
      display: flex;
 }
+
 .logo{
     text-decoration:none;
     color: #3a6cf4;
@@ -47,7 +48,8 @@ header{
    color: #3a6cf4;
 }
 h2{
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
 .G{
     position: absolute;
@@ -55,9 +57,7 @@ h2{
     bottom: 0;
     z-index: -1;
 }
-html{
-    background-color: rgba(0,0,0,0.4);
-}
+
 h2,h3{
     color: rgb(0, 117, 4);
 }
@@ -107,9 +107,24 @@ i{
     text-align:center;
 }
 .but a:hover{
-   color: #3a6cf4;
+   transform: scale(0.6);
 }
 .profile{
     justify-content: center;
     text-align: center;
+}
+.main-btn{
+    text-decoration: none;
+    border: solid;
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    margin: 50px; 
+}
+h3{
+    padding-bottom: 50px;
+}
+.social-icons{
+    padding: 50px;
 }
