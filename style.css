@@ -1,13 +1,13 @@
 header{
     background-color: #ff9068;
     width: 100%;
-    position: fixed;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     padding: 10px 200px;
     z-index: 999;
      list-style: none;
      display: flex;
+     position: fixed;
 }
 
 .logo{
@@ -113,6 +113,7 @@ i{
     justify-content: center;
     text-align: center;
 }
+
 .main-btn{
     text-decoration: none;
     border: solid;
@@ -127,4 +128,24 @@ h3{
 }
 .social-icons{
     padding: 50px;
+    justify-content: space-between;
 }
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+ @media(min-aspect-ratio:16/9){
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+ }
+
